@@ -1,0 +1,1034 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*Заголовки 22, обычный 11, расстояние 5-6 см. Отступ справа - 25 см. Размеры кнопки: шир. 82, выс.22. шрифт 8*/
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto.ttf");
+}
+@font-face {
+   font-family: RobotoBold;
+    src: url("../fonts/Robotobold.ttf");
+}
+body{
+    font-family: Roboto, sans-serif;
+}
+.main-info{
+    margin-left:  8.33%;
+  height: 129%;
+}
+
+.menu-idk{
+    justify-content: space-between;
+    padding-top:  8.33%;
+
+    width: 1280px;
+margin-left: 120px;
+
+}
+.header-logo{
+    margin-left: 100%;
+}
+.help{
+    margin-right: 100%;
+}
+/*КРИПЫ*/
+
+
+.creep{
+
+    height: 709px;
+ /*   background: rgba(143, 76, 23, 0.08);*/
+}
+  
+
+.creep-darker{
+  
+    height: 709px;
+    background: rgba(143, 76, 23, 0.08);
+}
+
+.creep-lighter{
+    
+    height: 829px;
+    background: rgba(143, 76, 23, 0.04);
+}
+.creep-darkest{
+   
+    height: 682px;
+ background: rgba(143, 76, 23, 0.08);;
+}
+.creep-fifef{
+   
+    height: 709px;
+background: #F9F6F3;
+}
+.creeperthing{
+
+height: 749px;
+
+background: #FDFCFB;
+}
+.creepy-last{
+  
+    height: 408px;
+    background: rgba(143, 76, 23, 0.2);
+}
+/*КРИПЫ*/
+/*Header*/  
+   .wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+   }
+
+
+/*врапхер*/
+
+.main-title{
+    font-weight: normal;
+    font-size: 80px;
+    line-height:129%;
+    color:white;
+    width: 740px;
+    margin-top: 107px;
+}
+
+.main-description{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 37px;
+width: 470px;
+
+/* or 170% */
+
+letter-spacing: 0.42px;
+
+color: #FFFFFF;
+}
+
+.main{
+    background-image: url(../img/firstbackground.png);
+    background-position: center;
+    background-size: cover;
+  height:  800px;
+  max-width: 100%;
+}
+.button{
+    width: 197px;
+    height: 56px;
+   
+    margin-top:51px;
+    background-color: #DD9d4c;
+    transition: background-color.8s;
+    padding: 20px 40px 20px 40px;
+    border:none;
+    border-radius: 4px;
+font-style: normal;
+/* identical to box height, or 350% */
+letter-spacing: 0.32px;
+}
+.button:hover{
+    cursor: pointer;
+    background: #916651ee;
+}
+/*Main*/
+.section-icons{
+    width: 1200px;
+    height: 74px;
+    position: relative;
+    margin: 0 auto;
+margin-top: 40px;
+ 
+}
+
+.icons{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    flex-direction: row;
+   
+/*СДЕЛАТЬ ОТСТУПЫ СПРАВА, СЛЕВА, СНИЗУ, И СВЕРХУб СДЕЛАТЬ РАССТОЯНИЕ МЕЖДУ ИКОНКАМИ*/
+}
+/*первый экран типа ну вот да*/
+.firstscreen{
+
+}
+.textfirstscreen{
+    margin-left: 8.33%;
+}
+.wrapperhelpfirst{
+    display: flex;
+ 
+}
+.firsttextscr{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 43px;
+    line-height: 56px;
+    /* or 130% */
+    margin-top: 194px;
+    width: 364px;
+    color: #1A0800;
+}
+.firstdescrtext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 170% */
+    margin-top: 31px;
+    letter-spacing: 0.42px;
+    width: 470px;
+    color: rgba(26, 8, 0, 0.7);
+    
+}
+.img-second-background{
+    margin-left:  8.33%;
+    margin-top: 105px;
+    width: 100%;
+}
+.fimgquess{
+
+}
+/*первый скрин */
+/*Второй экран*/ 
+.second-screen{
+    margin-top: 10px;
+}
+.thirdactually{
+display: flex;
+}
+.img-third-bgd{
+margin-left: 15px;
+}
+.third-text{
+margin-left: 49px;
+margin-top: 264px;
+}
+.main-third-title{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-size: 45px;
+line-height: 56px;
+/* or 124% */
+width: 478px;
+
+color: #1A0800;
+
+}
+.th-text{
+    font-family: 'Roboto';
+    font-style: normal;
+margin-top: 31px;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 170% */
+    width: 480px;
+    letter-spacing: 0.42px;
+    
+    color: rgba(26, 8, 0, 0.7);
+    
+}
+
+/*Второй экран*/ 
+.fourthiquess{
+    display: flex;
+}
+
+.frtext{
+    margin-top: 194px;
+    margin-left:  8.33%;
+
+}
+.frtexttitle{
+width: 413px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-size: 48px;
+line-height: 56px;
+/* or 117% */
+
+
+color: #1A0800;
+
+}
+.frtextdeckr{
+margin-top: 31px;
+width: 441px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-size: 11px;
+line-height: 27px;
+/* or 247% */
+
+letter-spacing: 0.42px;
+
+color: rgba(26, 8, 0, 0.7);
+
+}
+.imagechetiri{
+    padding-left: 159px;
+    margin-top: 91px;
+}
+
+/*next one fitfhfthitfih*/
+.imagefifer{
+margin-left:8.33%;
+}
+.fifwrap{
+    display: flex;
+}
+.textfif{
+margin-left:  8.33%;
+margin-top: 150px;
+}
+.textitlemainfifef{
+
+    font-family: 'Roboto';
+    font-style: normal;
+width: 451px;
+    font-size: 51px;
+    line-height: 56px;
+    /* or 110% */
+    
+    
+    color: #1A0800;
+    
+}
+.fifdesckr{
+
+    font-family: 'Roboto';
+    font-style: normal;
+ width: 478px;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 170% */
+    margin-top: 31px;
+    letter-spacing: 0.42px;
+    
+    color: rgba(26, 8, 0, 0.7);
+    
+}   
+/*Странный экран */
+
+.weird-title{
+width: 463px;
+
+font-family: 'Roboto';
+font-style: normal;
+margin-top: 110px;
+font-size: 50px;
+line-height: 58px;
+/* or 116% */
+
+
+color: #1A0800;
+
+}
+.strange-icons{
+    display:flex;
+    margin-top: 103px;
+    
+}
+.firstthing{
+
+}
+.ourthings{
+    margin-left: 120px;
+}
+.secondthing{
+margin-left: 60.66px;
+}
+.thirdthing{
+    margin-left: 60.66px;
+}
+.texticons{
+    margin-top: 23px;
+}
+.titleforicons{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-size: 15px;
+line-height: 27px;
+/* identical to box height, or 181% */
+
+letter-spacing: 0.42px;
+
+color: #1A0800;
+}
+.desckrb{
+    margin-top: 5px;
+    
+font-family: 'Roboto';
+font-style: normal;
+width: 326px;
+font-size: 14px;
+line-height: 27px;
+/* or 194% */
+
+letter-spacing: 0.42px;
+
+color: rgba(26, 8, 0, 0.7);
+
+}
+.flexy{
+margin-top: 114px;
+margin-left:  8.33%;
+    font-family: 'Roboto';
+    font-style: normal;
+  width: 308px;
+    font-size: 43px;
+    line-height: 56px;
+    /* or 130% */
+    
+    
+    color: #1A0800;
+    
+}
+.icons-last{
+    display: flex;
+    margin-top: 157px;
+    margin-left: 78px;
+}
+.circle{
+    margin-left:  8.33%;
+}
+.lasterst{
+    display: flex;
+}
+.titlecute{
+    
+font-family: 'Roboto';
+font-style: normal;
+margin-left: 6px;
+font-size: 16px;
+line-height: 27px;
+/* identical to box height, or 170% */
+
+letter-spacing: 0.42px;
+
+color: #1A0800;     
+
+}
+.textmini{
+    margin-top: 2px;
+font-family: 'Roboto';
+font-style: normal;
+width: 346px;
+font-size: 16px;
+line-height: 27px;
+/* or 170% */
+
+letter-spacing: 0.42px;
+
+color: rgba(26, 8, 0, 0.7);
+
+
+}
+/*FINALLY*/
+
+/*Footer*/
+
+.creeper-footer{
+    width:1440px;
+    margin: 0 auto;
+height: 518px;
+}
+.footer{
+    background-image: url(../img/firstbackground.png);
+    background-position: center;
+    background-size: cover;
+}
+.flexfooter{
+
+    margin-left:  8.33%;
+}
+.footer-logo{
+    margin-top: 120px;
+}
+.fotettext{
+    
+font-family: 'Roboto';
+font-style: normal;
+width: 339px;
+margin-top: 46px;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+letter-spacing: 0.42px;
+
+color: #FFFFFF;
+
+}
+.yesbritan{
+    color: #FFFFFF;
+    margin-top: 22px;
+}
+.thingy-down{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 184% */
+
+letter-spacing: 0.25px;
+
+color: rgba(255, 255, 255, 0.6);
+
+    margin-top: 29px;
+}
+ /*  .wrapper{
+        width: auto;
+        padding: 0 30px;
+    }
+    .flexy{
+        margin-top: 114px;
+    margin-left: 8.33%;
+    font-family: 'Roboto';
+    font-style: normal;
+ 
+    font-size: 22px;
+    line-height: 56px;
+    color: #1A0800;
+    }
+
+    .button{
+        width: 85px;
+        height: 22px;
+        background: #DD9D4C;
+        margin-top:11px;
+        padding: 10px 5px 10px 5px;
+        border:none;
+        border-radius: 4px;
+    font-style: normal;
+    /* identical to box height, or 350% 
+    letter-spacing: 0.32px;
+    }
+        
+    
+    */
+
+/*DTHCNRF*/
+
+
+/*медиа*/ 
+@media(max-width:500px) {
+    .img-third-bgd {
+       display: none;
+    }
+    .third{
+        display: none;
+    }
+    .imagefifer {
+        display: none;
+    }
+    .img-second-background{
+        display: none;
+    }
+    .imagechetiri{
+        display: none;
+    }
+
+
+.main-info{
+    margin-left:  25px;
+  height: 129%;
+}
+
+.menu-idk{
+    display: flex;
+    justify-content: space-between;
+    padding-top:  8.33%;
+margin-left: 25px;
+    width:400px;
+}
+.header-logo{
+margin-left: 5px;
+}   
+.help{
+margin-left: 100px;
+}
+/*КРИПЫ*/
+
+
+.creep{
+
+    height: 709px;
+ /*   background: rgba(143, 76, 23, 0.08);*/
+}
+  
+
+.creep-darker{
+  
+    height: 709px;
+    background: rgba(143, 76, 23, 0.08);
+}
+
+.creep-lighter{
+    
+    height: 829px;
+    background: rgba(143, 76, 23, 0.04);
+}
+.creep-darkest{
+   
+    height: 682px;
+ background: rgba(143, 76, 23, 0.08);;
+}
+.creep-fifef{
+   
+    height: 709px;
+background: #F9F6F3;
+}
+.creeperthing{
+
+height: 1150px;
+
+background: #FDFCFB;
+}
+.creepy-last{
+  
+    height: 700px;
+    background: rgba(143, 76, 23, 0.2);
+}
+/*КРИПЫ*/
+/*Header*/  
+   .wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+   }
+
+
+/*врапхер*/
+
+.main-title{
+    font-weight: normal;
+
+    font-size: 46px;
+    line-height:129%;
+    color:white;
+    width: 350px;
+    margin-top: 107px;
+}
+
+.main-description{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 37px;
+width: 250px;
+
+/* or 170% */
+
+letter-spacing: 0.42px;
+
+color: #FFFFFF;
+}
+
+.main{
+    background-image: url(../img/firstbackground.png);
+    background-position: center;
+    background-size: cover;
+  height:  800px;
+  max-width: 100%;
+}
+.button{
+    width: 197px;
+    height: 56px;
+   
+    margin-top:51px;
+    background-color: #DD9d4c;
+    transition: background-color.8s;
+    padding: 20px 40px 20px 40px;
+    border:none;
+    border-radius: 4px;
+font-style: normal;
+/* identical to box height, or 350% */
+letter-spacing: 0.32px;
+}
+.button:hover{
+    cursor: pointer;
+    background: #916651ee;
+}
+/*Main*/
+.section-icons{
+    width: 350px;
+    height: 74px;
+    position: relative;
+margin-left: 15px;
+
+margin-top: 40px;
+ 
+}
+.icn3{
+    width: 120px;
+    height: 40px;
+}
+.icn2{
+    width: 40px;
+    height: 40px;
+}
+.icn{
+    width:70px;
+height: 40px;
+}
+.icons{
+    
+    display: flex;
+    width: 388px;
+    
+    margin-right: 10px;
+   
+/*СДЕЛАТЬ ОТСТУПЫ СПРАВА, СЛЕВА, СНИЗУ, И СВЕРХУб СДЕЛАТЬ РАССТОЯНИЕ МЕЖДУ ИКОНКАМИ*/
+}
+/*первый экран типа ну вот да*/
+
+.textfirstscreen{
+    margin-left: 25px;
+
+}
+.wrapperhelpfirst{
+    display: flex;
+ 
+}
+
+.firsttextscr{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 43px;
+    line-height: 56px;
+    /* or 130% */
+    margin-top: 194px;
+    width: 350px;
+    color: #1A0800;
+}
+.firstdescrtext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 170% */
+    margin-top: 31px;
+    letter-spacing: 0.42px;
+    width: 340px;
+    color: rgba(26, 8, 0, 0.7);
+    
+}
+.img-second-background{
+    margin-left:  8.33%;
+    margin-top: 105px;
+    width: 100%;
+}
+.fimgquess{
+
+}
+/*первый скрин */
+/*Второй экран*/ 
+.second-screen{
+    margin-top: 10px;
+}
+.thirdactually{
+display: flex;
+}
+.img-third-bgd{
+margin-left: 25px;
+}
+.third-text{
+margin-left: 25px;
+margin-top: 264px;
+}
+.main-third-title{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-size: 45px;
+line-height: 56px;
+/* or 124% */
+width: 350px;
+
+color: #1A0800;
+
+}
+.th-text{
+    font-family: 'Roboto';
+    font-style: normal;
+margin-top: 31px;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 170% */
+    width: 350px;
+    letter-spacing: 0.42px;
+    
+    color: rgba(26, 8, 0, 0.7);
+    
+}
+
+/*Второй экран*/ 
+.fourthiquess{
+    display: flex;
+}
+
+.frtext{
+    margin-top: 194px;
+    margin-left:  25px;
+
+}
+.frtexttitle{
+width: 313px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-size: 48px;
+line-height: 56px;
+/* or 117% */
+
+
+color: #1A0800;
+
+}
+.frtextdeckr{
+margin-top: 31px;
+width: 341px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-size: 11px;
+line-height: 27px;
+/* or 247% */
+
+letter-spacing: 0.42px;
+
+color: rgba(26, 8, 0, 0.7);
+
+}
+.imagechetiri{
+    padding-left: 159px;
+    margin-top: 91px;
+}
+
+/*next one fitfhfthitfih*/
+.imagefifer{
+margin-left:25px;
+}
+.fifwrap{
+    display: flex;
+}
+.textfif{
+margin-left:  25px;
+margin-top: 150px;
+}
+.textitlemainfifef{
+
+    font-family: 'Roboto';
+    font-style: normal;
+width: 351px;
+    font-size: 51px;
+    line-height: 56px;
+    /* or 110% */
+    
+    
+    color: #1A0800;
+    
+}
+.fifdesckr{
+
+    font-family: 'Roboto';
+    font-style: normal;
+ width: 298px;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 170% */
+    margin-top: 31px;
+    letter-spacing: 0.42px;
+    
+    color: rgba(26, 8, 0, 0.7);
+    
+}   
+/*Странный экран */
+
+.weird-title{
+width: 363px;
+
+font-family: 'Roboto';
+font-style: normal;
+margin-top: 110px;
+font-size: 50px;
+line-height: 58px;
+/* or 116% */
+
+
+color: #1A0800;
+
+}
+.strange-icons{
+    display:grid;
+    margin-top: 103px;
+}
+.firstthing{
+
+}
+.ourthings{
+    margin-left: 25px;
+}
+.secondthing{
+    margin-top: 10px;
+margin-left: 0px;
+}
+.thirdthing{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.texticons{
+    margin-top: 23px;
+}
+.titleforicons{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-size: 15px;
+line-height: 27px;
+/* identical to box height, or 181% */
+
+letter-spacing: 0.42px;
+
+color: #1A0800;
+}
+.desckrb{
+    margin-top: 5px;
+    
+font-family: 'Roboto';
+font-style: normal;
+width: 326px;
+font-size: 14px;
+line-height: 27px;
+/* or 194% */
+
+letter-spacing: 0.42px;
+
+color: rgba(26, 8, 0, 0.7);
+
+}
+.flexy{
+margin-top: 60px;
+margin-left:  25px;
+    font-family: 'Roboto';
+    font-style: normal;
+  width: 308px;
+    font-size: 43px;
+    line-height: 56px;
+    /* or 130% */
+    
+    
+    color: #1A0800;
+    
+}
+.icons-last{
+    display: grid;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.circle{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.lasterst{
+    display: grid;
+}
+.titlecute{
+    
+font-family: 'Roboto';
+font-style: normal;
+margin-left: 6px;
+font-size: 16px;
+line-height: 27px;
+/* identical to box height, or 170% */
+
+letter-spacing: 0.42px;
+
+color: #1A0800;     
+
+}
+.textmini{
+    margin-top: 2px;
+font-family: 'Roboto';
+font-style: normal;
+width: 250px;
+font-size: 12px;
+line-height: 27px;
+/* or 170% */
+
+letter-spacing: 0.42px;
+
+color: rgba(26, 8, 0, 0.7);
+
+
+}
+/*FINALLY*/
+
+/*Footer*/
+
+.creeper-footer{
+    max-width:500px;
+    margin: 0 auto;
+height: 518px;
+}
+.footer{
+    background-image: url(../img/firstbackground.png);
+    background-position: center;
+    background-size: cover;
+}
+.flexfooter{
+
+    margin-left:  25px;
+}
+.footer-logo{
+    margin-top: 120px;
+}
+.fotettext{
+    
+font-family: 'Roboto';
+font-style: normal;
+width: 339px;
+margin-top: 46px;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+letter-spacing: 0.42px;
+
+color: #FFFFFF;
+
+}
+.yesbritan{
+    color: #FFFFFF;
+    margin-top: 22px;
+}
+.thingy-down{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 184% */
+
+letter-spacing: 0.25px;
+
+color: rgba(255, 255, 255, 0.6);
+
+    margin-top: 29px;
+}
+
+    
+}
